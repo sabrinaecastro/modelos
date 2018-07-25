@@ -1,0 +1,27 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: sabrina
+ * Creation Date: 24/07/2018 at 09:58:11
+ *********************************************/
+Grupos = {D1 D2};
+Minoristas ={M1 M2 M3 M4 M5 M6 M7 M8 M9 M10 M11 M12 M13 M14 M15 M16 M17 M18 M19 M20 M21 M22 M23};
+MinoristasR1 ={M1 M2 M3 M4 M5 M6 M7 M8}; 
+MinoristasR2 ={M9 M10 M11 M12 M13 M14 M15 M16 M17 M18};
+MinoristasR3 ={M19 M20 M21 M22 M23};
+
+PuntosDeEntrega = [11 47 44 25 10 26 26 54 18 51 20 105 7 16 34 100 50 21 11 19 14 10 11];
+
+MercadoAlcohol = [34 411 82 157 5 183 14 215 102 21 54 0 6 96 118 112 535 8 53 28 69 65 27];
+
+MercadoAceiteR1 = [9 13 14 17 18 19 23 21]; 
+MercadoAceiteR2 = [9 11 17 18 18 17 22 24 36 43]; 
+MercadoAceiteR3 = [6 15 15 25 39];
+
+MinoristasA = {M1 M2 M3 M5 M6 M10 M15 M20};
+MinoristasB = {M4 M7 M8 M9 M11 M12 M13 M14 M16 M17 M18 M19 M21 M22 M23};
+
+GrupoA = [1 1 1 1 1 1 1 1];
+GrupoB = [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1];
+
+PorcMin = [35 45];
+PorcMax = [55 65];

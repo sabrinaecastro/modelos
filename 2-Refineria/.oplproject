@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref name="refineria.dat" type="data">
+			</ref>
+			<ref name="refineria.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,51 @@
+
+Crudo = {CR1, CR2};
+Nafta = {NL, NM, NP};
+Residuo = {R};
+Aceite = {AL, AP};
+Reformado = {RG};
+Crackeado = {CG, CO};
+Gasolina = {PRE, REG}; 
+Combustible = {CA, AC};
+Lubricante = {LUB};
+
+DistNafta = [[0.10 0.20 0.20]
+                 [0.15 0.25 0.18]];
+DistAceite = [[0.12 0.20]
+              [0.08 0.19]];
+DistResiduo = [[0.13]
+                [0.12]];
+
+ReformadoProcess = [[0.60]
+                 [0.52]
+                 [0.45]];
+
+CrackeadoProcess = [[0.28 0.68]
+                [0.20 0.75]];
+ResiduoProcess = [[0.50]];
+
+OctaneNafta = [90 80 70];
+OctaneReformado = [115];
+OctaneCG = 105;
+ReqOctane = [94 84];
+ReqRatioGasolina = 0.40;
+ 
+ReqAceiteFO = [.55 .17];
+ReqCrkFO = 0.22;
+ReqResiduoFO = [0.06];
+
+
+VaporAceite = [1.0 0.6];
+VaporResiduo = [0.05];
+VaporCrkAceite = 1.5;
+LimVaporCA = 1.0;
+
+LimCrudo = [20000 30000];
+LimDestilado = 45000;
+LimReformado = 10000;
+LimCrackeado = 8000;
+LoLubricante = [500];
+UpLubricante = [1000];
+ProfitGasolina = [7 6];
+ProfitCombustible  = [4 3.5];
+ProfitLubricante   = [1.5];
